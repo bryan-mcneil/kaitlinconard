@@ -1,0 +1,33 @@
+#webcomic-main {
+    position: relative;
+}
+
+#centerpage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding: 1%;
+}
+
+#oddpage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding: 1%;
+}
+
+#bottomright {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    font-size: 18px;
+}
+
+#bottomleft {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    font-size: 18px;
+    visibility: hidden;
+}

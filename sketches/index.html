@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-9">
+  <meta name="author" content="Bryan Mcneil">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kaitlin Conard illustration. Digital Illustration, Sketches, Crafts, and much more">
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+  <link rel="icon" href="kkfavicon.ico">
+  <title> Kaitlin Conard Art</title>
+  <script src="/scripts/webcomponents-lite.min.js"></script>
+  <script src="/scripts/changestar.js"></script>
+  <script src="/scripts/lightbox.js"></script>
+  <link rel="import" href="/static.html">
+
+</head>
+
+<body onload="star('#sketches')">
+ <div>
+   <header role="banner" id="page-header">
+   </header>
+
+   <nav role="navigation" id="page-nav">
+   </nav>
+        <div class="row">
+          <div class="column">
+            <img src="/image/forest_sm.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/kassandra_sm.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/girl_sm.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/BFChar_sm.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/eating_sm.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/horse_sm.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/expressions_sm.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/danielpose_sm.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="/image/oldWizard_sm.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+          </div>
+        </div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/forest_lg.jpg" alt="1 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/kassandra_lg.jpg" alt="2 / 9">
+            </div>
+
+            <div id="tallimg" class="mySlides">
+              <img class="Test" src="/image/girl_lg.jpg" alt="3 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/BFChar.jpg" alt="4 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/eating_lg.jpg" alt="5 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/horse_lg.jpg" alt="6 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/expressions_lg.jpg" alt="7 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/danielpose_lg.jpg" alt="8 / 9">
+            </div>
+
+            <div class="mySlides">
+              <img class="Test" src="/image/oldWizard_lg.jpg" alt="9 / 9">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+           
+            </div>
+        </div>
+
+
+
+  <footer role="contentinfo" id="page-footer">
+  </footer>
+  <script src="/scripts/highlight.js"></script>
+  <script src="/scripts/analytics.js"></script>
+  <script src="/scripts/loader.js"></script>
+ </div>
+</body>
+
+</html>
+
