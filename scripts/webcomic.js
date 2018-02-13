@@ -51,3 +51,35 @@ function PrevPage() {
 
     document.getElementById("centerpage").src = page;
 }
+
+function PhoneNextPage() {
+    PageCount++;
+    var page = "../phone_img/Page" + PageCount + ".jpg";
+    document.getElementById("phoneleft").style.visibility = "visible";
+
+    if (PageCount == 0) {
+        page = "../phone_img/Cover.jpg";
+        document.getElementById("phoneleft").style.visibility = "hidden";
+    }
+    else if (PageCount == 29) {
+        document.getElementById("phoneright").style.visibility = "hidden";
+    }
+
+    document.getElementById("phonepage").src = page;
+}
+
+function PhonePrevPage() {
+    PageCount--;
+    var page = "../phone_img/Page" + PageCount + ".jpg";
+    document.getElementById("phoneright").style.visibility = "visible";
+
+    if (PageCount == 0) {
+        page = "../phone_img/Cover.jpg";
+        document.getElementById("phoneleft").style.visibility = "hidden";
+    }
+    else if (PageCount == 29) {
+        document.getElementById("phoneright").style.visibility = "hidden";
+    }
+
+    document.getElementById("phonepage").src = page;
+}

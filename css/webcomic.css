@@ -10,24 +10,121 @@
     padding: 1%;
 }
 
-#oddpage {
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
-    padding: 1%;
-}
-
 #bottomright {
+    cursor: pointer;
     position: absolute;
-    bottom: 1%;
-    right: 1%;
-    font-size: 18px;
+    bottom: 40%;
+    right: 0%;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    -webkit-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 #bottomleft {
+    cursor: pointer;
     position: absolute;
-    bottom: 1%;
-    left: 1%;
-    font-size: 18px;
+    bottom: 40%;
+    left: 0%;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    -webkit-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
     visibility: hidden;
+}
+
+#bottomleft:hover,
+#bottomright:hover {
+    background-color: #d3e3e3;
+}
+
+#phonepage {
+    display: none;
+}
+
+#phoneleft {
+    display: none;
+}
+
+#phoneright {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #phonepage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        padding: 1%;
+    }
+
+    #phoneleft {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        bottom: 40%;
+        left: 0%;
+        padding: 1%;
+        color: white;
+        font-weight: bold;
+        font-size: 5em;
+        -webkit-transition: 0.6s ease;
+        -o-transition: 0.6s ease;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-select: none;
+        visibility: hidden;
+    }
+
+    #phoneright {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        bottom: 40%;
+        right: 0%;
+        padding: 1%;
+        color: white;
+        font-weight: bold;
+        font-size: 5em;
+        -webkit-transition: 0.6s ease;
+        -o-transition: 0.6s ease;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    #centerpage {
+        display: none;
+    }
+
+    #bottomright {
+        display: none;
+    }
+
+    #bottomleft {
+        display: none;
+    }
 }
