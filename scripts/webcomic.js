@@ -10,11 +10,11 @@ function NextPage() {
         document.getElementById("bottomleft").style.visibility = "hidden";
     }
 
-    if (PageCount == 4) {
+    if (PageCount == 2) {
         document.getElementById("centerpage").style.width = "90%";
     }
 
-    else if (PageCount == 18) {
+    else if (PageCount == 16) {
         document.getElementById("centerpage").style.width = "45%";
         document.getElementById("bottomright").style.visibility = "hidden";
     }
@@ -32,19 +32,19 @@ function PrevPage() {
         document.getElementById("bottomleft").style.visibility = "hidden";
     }
 
-    if (PageCount == 3) {
+    if (PageCount == 1) {
         document.getElementById("centerpage").style.width = "45%";
     }
 
-    else if (PageCount == 4) {
+    else if (PageCount == 2) {
         document.getElementById("centerpage").style.width = "90%";
     }
 
-    else if (PageCount == 17) {
+    else if (PageCount == 15) {
         document.getElementById("centerpage").style.width = "90%";
     }
 
-    else if (PageCount == 18) {
+    else if (PageCount == 16) {
         document.getElementById("centerpage").style.width = "45%";
         document.getElementById("bottomright").style.visibility = "hidden";
     }
