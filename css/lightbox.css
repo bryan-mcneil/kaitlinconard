@@ -5,6 +5,7 @@
         display: flex;
         margin: auto;
         border: 40px double white;
+		height: 93vh;
     }
 
     .row > .column {
